@@ -1,0 +1,34 @@
+.news {
+    height: 450px;
+    background-image: url("/img/subscribe-sec-bg.png");
+    background-size: cover;
+    background-color: white;
+    display: flex;
+    text-align: center;
+
+    .cen-box {
+        width: 55%;
+        margin: auto;
+
+        h1 {
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .sub {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            input {
+                width: 400px;
+                height: 35px;
+            }
+
+            h3 {
+                background-color: #fc7525;
+                padding: 6px;
+                margin-left: 25px;
+            }
+        }
+    }
+}

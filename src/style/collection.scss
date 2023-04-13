@@ -1,0 +1,51 @@
+.collection {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 160px;
+
+    .collection-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 520px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .collection-dw {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        margin: 15px;
+        width: calc(88% / 4);
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h4 {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+
+        img {
+            width: 35%;
+        }
+    }
+
+    .collection-dw {
+        .card {
+            &:hover {
+                .hv {
+                    background-color: #fc7525;
+                }
+            }
+        }
+    }
+}
